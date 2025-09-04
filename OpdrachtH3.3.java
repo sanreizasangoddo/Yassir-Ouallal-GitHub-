@@ -1,6 +1,9 @@
 size(600,600);
 background(255,255,255);
 
+strokeWeight(5);
+line(200,600,200,200);
+
 fill(0,0,0);
 rect(150,200,100,200);
 
