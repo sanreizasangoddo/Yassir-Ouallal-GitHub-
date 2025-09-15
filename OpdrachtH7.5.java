@@ -1,26 +1,26 @@
-int cijfer = 5;
+int cijfer = 3;
 
 switch(cijfer) {
 case 1:
 case 2:
 case 3:
-  println("Slecht...");
+  println(cijfer + " Slecht...");
   break;
 case 4:
-  println("Onvoldoende...");
+  println(cijfer + " Onvoldoende...");
   break;
 case 5:
-  println("Matig");
+  println(cijfer + " Matig");
   break;
 case 6:
 case 7:
-  println("Voldoende");
+  println(cijfer + " Voldoende");
   break;
 case 8:
 case 9:
 case 10:
-  println("Goed!");
+  println(cijfer + " Goed!");
   break;
-  default:
+default:
   println("Waarschuwing: Verkeerd cijfer ingevoerd!");
 }
