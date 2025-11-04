@@ -70,7 +70,7 @@ void draw() {
   text(goal1, 200, 70);
   text(goal2, 600, 70);
 
-  // Toon Controls onderaan
+  // Toon besturing onderaan
   drawControlsBottomCenter();
 
   // Als het spel voorbij is
@@ -112,7 +112,7 @@ boolean allBallsPaused() {
   return true;
 }
 
-// Zet alle ballen stil (gebruikt bij game-over)
+// Zet alle ballen stil bij game-over
 void pauseAllBalls() {
   if (ballen == null) return;
   for (int i = 0; i < ballen.length; i++) {

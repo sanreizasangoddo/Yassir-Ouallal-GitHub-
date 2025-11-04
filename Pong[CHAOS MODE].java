@@ -13,7 +13,6 @@ int pauseFrames = 120;
 int winScore = 20;
 boolean gameOver = false;
 
-// Spelobjecten: twee paddles en een dynamische lijst met ballen
 Speler[] spelers = new Speler[2];
 Bal[] ballen = null;
 
@@ -33,7 +32,7 @@ int selectedOptionIndex = 2; // Standaard: index van 20 punten
 // Exact aantal ballen per optie
 int[] ballsPerOption = {1, 2, 4, 10, 20};
 
-// Per-optie: forceer stroke (true) of niet (false)
+// Forceer stroke (true) of niet (false)
 boolean[] forceStrokePerOption = {true, true, true, true, false};
 
 // Als true wordt er eenvoudiger getekend
@@ -113,7 +112,7 @@ void draw() {
   text(goal1, 200, 70);
   text(goal2, 600, 70);
 
-  // Toon Controls onderaan
+  // Toon besturing onderaan
   drawControlsBottomCenter();
 
   // Game-over overlay
